@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SWAPPEE_LOGO_SRC = '/Swappee_logo.svg'
+const URBANPASS_LOGO_SRC = '/Urbanpass_logo.svg'
 
 // =============================================================================
 // ヒーローセクション：ファーストビュー（白背景・中央配置・ロゴアニメーション）
@@ -17,8 +17,8 @@ function HeroSection() {
           }}
         >
           <img
-            src={SWAPPEE_LOGO_SRC}
-            alt="Swappee"
+            src={URBANPASS_LOGO_SRC}
+            alt="Urbanpass"
             className="w-44 h-auto md:w-56 max-w-[min(100%,280px)] object-contain"
             width={280}
             height={280}
@@ -126,7 +126,7 @@ function ProblemSection() {
 }
 
 // =============================================================================
-// 概念図セクション：スマホファースト縦比較（従来 vs Swappee）
+// 概念図セクション：スマホファースト縦比較（従来 vs Urbanpass）
 // =============================================================================
 function ConceptDiagramSection() {
   return (
@@ -179,7 +179,7 @@ function ConceptDiagramSection() {
         {/* 中央：転換点 */}
         <div className="flex flex-col items-center py-6 md:py-8">
           <p className="text-center text-lg md:text-xl font-bold text-navy mb-4 tracking-wide">
-            Swappeeが、常識を上書きする。
+            Urbanpassが、常識を上書きする。
           </p>
           <div className="flex flex-col items-center text-emerald">
             <svg className="w-10 h-10 md:w-12 md:h-12 drop-shadow-[0_0_8px_rgba(0,206,209,0.6)] animate-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -188,7 +188,7 @@ function ConceptDiagramSection() {
           </div>
         </div>
 
-        {/* 下部：Swappeeのシステム（ライフスタイル起点） */}
+        {/* 下部：Urbanpassのシステム（ライフスタイル起点） */}
         <div className="relative rounded-2xl border-2 border-emerald/30 bg-emerald/5 p-6 md:p-8 shadow-lg overflow-hidden">
           <div className="absolute inset-0 concept-stream opacity-30 pointer-events-none" />
           <h3 className="text-center text-sm md:text-base font-bold text-navy mb-6 tracking-wide relative">
@@ -220,7 +220,7 @@ function ConceptDiagramSection() {
           <div className="flex justify-center mb-4">
             <div className="w-full max-w-[200px] md:max-w-[240px] rounded-2xl bg-gradient-to-br from-emerald to-navy flex items-center justify-center shadow-lg concept-ai-icon relative p-3 md:p-4">
               <img
-                src={SWAPPEE_LOGO_SRC}
+                src={URBANPASS_LOGO_SRC}
                 alt=""
                 className="w-full h-auto object-contain"
                 width={240}
@@ -267,7 +267,7 @@ function ConceptDiagramSection() {
 }
 
 // =============================================================================
-// 解決策セクション：Swappeeの3つの価値 + Before/After 比較
+// 解決策セクション：Urbanpassの3つの価値 + Before/After 比較
 // =============================================================================
 function SolutionSection() {
   const solutions = [
@@ -304,10 +304,10 @@ function SolutionSection() {
       <div className="max-w-5xl mx-auto">
         {/* 概念図の直下に配置 */}
         <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-navy text-center mb-4 tracking-wide">
-          Swappeeが解決する3つの革命的な価値。
+          Urbanpassが解決する3つの革命的な価値。
         </h2>
         <p className="text-center text-gray-600 mb-12 md:mb-16">
-          Swappeeが、あなたの人生に不動産をフィットさせる。
+          Urbanpassが、あなたの人生に不動産をフィットさせる。
         </p>
 
         {/* 解決策カード（青エメラルドをアクセントに） */}
@@ -327,12 +327,12 @@ function SolutionSection() {
           ))}
         </div>
 
-        {/* Before / After 比較（従来型 vs Swappee） */}
+        {/* Before / After 比較（従来型 vs Urbanpass） */}
         <div className="rounded-2xl border border-gray-200 overflow-hidden">
           <div className="grid grid-cols-3 bg-gray-100 text-sm font-semibold text-navy">
             <div className="p-4 border-b border-r border-gray-200">項目</div>
             <div className="p-4 border-b border-r border-gray-200 text-center">従来（Pull型）</div>
-            <div className="p-4 border-b border-gray-200 text-center text-emerald">Swappee（Push型）</div>
+            <div className="p-4 border-b border-gray-200 text-center text-emerald">Urbanpass（Push型）</div>
           </div>
           {comparison.map((row, i) => (
             <div key={i} className="grid grid-cols-3 text-sm">
@@ -360,8 +360,8 @@ function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center">
           <img
-            src={SWAPPEE_LOGO_SRC}
-            alt="Swappee"
+            src={URBANPASS_LOGO_SRC}
+            alt="Urbanpass"
             className="h-9 md:h-10 w-auto object-contain"
             width={200}
             height={80}

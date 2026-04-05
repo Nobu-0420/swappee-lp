@@ -15,7 +15,7 @@ const notoSerif = Noto_Serif_JP({
 });
 
 export const metadata = {
-  title: 'Swappee — 合わせるのは、不動産の方だ。',
+  title: 'Urbanpass — 合わせるのは、不動産の方だ。',
   description: 'Property fits your life.',
 };
 
