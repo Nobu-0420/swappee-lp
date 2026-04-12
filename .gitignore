@@ -30,3 +30,15 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# Urban Pass（ルートから sync:urbanpass で public に生成）
+public/urban-pass.html
+public/stations_data.js
+public/shared-station-view.js
+public/config.json
+public/recommended-stations.csv
+public/station_outputlist_all.csv
+public/station_ranks.csv
+public/station20251211free.csv
+public/stations-23ku+10.json
+public/data/network_data.json

@@ -9,8 +9,8 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata = {
-  title: 'Swappee — 合わせるのは、不動産の方だ。',
-  description: 'Property fits your life.',
+  title: '次世代AI診断ツール Urban Pass (by Swappee) — 都市生活の最適解へ',
+  description: 'Urban Pass — 都市生活の最適解へ',
 };
 
 export default function RootLayout({ children }) {
